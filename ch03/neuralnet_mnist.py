@@ -34,6 +34,7 @@ def predict(network, x):
 
     return y
 
+
 x, t = get_data()
 network = init_network()
 accuracy_cnt = 0
