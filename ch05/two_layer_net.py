@@ -61,6 +61,8 @@ class TwoLayerNet:
 
         return grads
 
+    # x: 输入数据, t: 监督数据
+    # 基于误差反向传播法计算梯度
     def gradient(self, x, t):
         # forward
         self.loss(x, t)
