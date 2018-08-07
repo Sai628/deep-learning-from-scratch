@@ -53,6 +53,4 @@ venv
 
 # data file
 *.gz
-*.pkl
-!sample_weight.pkl
-
+mnist.pkl
