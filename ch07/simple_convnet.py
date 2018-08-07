@@ -15,7 +15,11 @@ from common.gradient import numerical_gradient
 class SimpleConvNet:
     """
     简单CNN网络
-    --> conv->relu->pooling --> affine->relu --> affine->softmax -->
+
+    网络层设定如下:
+    conv - relu - pooling -
+    affine - relu -
+    affine - softmax
 
     :param input_dim: 输入数据的维度: (通道, 高, 长)
     :param conv_param: 卷积层的超参数(字典). 字典中的关键字如下:
